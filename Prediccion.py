@@ -2,7 +2,7 @@ import numpy as np
 from tensorflow.python.keras.models import load_model
 
 # Ruta del modelo guardado y del archivo de datos
-ruta_modelo = 'modelo_perceptron.h5'
+ruta_modelo = 'modelo_perceptron'
 ruta_datos = 'datos_procesados/datos_para_entrenamiento.npz'
 
 # Cargar el modelo guardado

@@ -8,7 +8,7 @@ ruta_guardado = 'datos_procesados/datos_para_entrenamiento.npz'
 
 ETA = 0.0001
 OPTIMIZER = Adam(learning_rate=ETA)
-EPOCAS = 10000
+EPOCAS = 100
 BATCH_SIZE=10
 
 # Cargar el archivo .npz
@@ -42,5 +42,5 @@ model.summary()
 
 # Entrenar el modelo
 model.fit(X_train, y_train, epochs=EPOCAS, batch_size=BATCH_SIZE)
-model.save('modelo_perceptron.h5')
+model.save('modelo_perceptron', save_format='tf')
 print("Modelo guardado exitosamente.")
