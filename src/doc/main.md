@@ -9,7 +9,7 @@
 Primero, importamos la clase `ProcesadorEscala` desde el archivo correspondiente.
 
 ```python
-from ProcesadorImagen import ProcesadorImagen
+from src.ProcesadorImagen import ProcesadorImagen
 ````
 ### 2. Crear una Instancia ```ProcesadorEscala``` para poder utilizar sus métodos.
 

@@ -87,7 +87,7 @@ Procesa todas las imágenes en un directorio y guarda la escala en milímetros p
 En `main.py`, puedes crear una instancia de la clase y llamar al método `procesar_imagenes_directorio` para procesar todas las imágenes en un directorio específico.
 
 ```python
-from ProcesadorImagen import ProcesadorImagen
+from src.ProcesadorImagen import ProcesadorImagen
 
 # Crear una instancia de ProcesadorEscala
 procesador = ProcesadorImagen()
